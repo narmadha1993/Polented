@@ -1,0 +1,26 @@
+{
+  "name": "polented",
+  "description": "Covisint API Policy and Entitlements Editor",
+  "main": "index.html",
+  "authors": [
+    "Mitchell Bass <mitchell.bass@covisint.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [
+    "es6"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~3.0.0",
+    "js-beautify": "~1.6.3",
+    "lodash": "~4.13.1"
+  }
+}

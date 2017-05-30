@@ -1,0 +1,240 @@
+// -----------
+$covi-prim-dark: #005eb8;
+$covi-prim-med: #00a3e0;
+$covi-prim-bright: #0cb7eb;
+$covi-prim-light: #87cdf1;
+$covi-prim-gry: #888b8d;
+$covi-prim-blk: #414042;
+
+$covi-secd-org: #ff8200;
+$covi-secd-org-lt: rgba(255,130,0,0.1);
+$covi-secd-ylw: #ffc600;
+$covi-secd-ylw-lt: rgba(255,198,0,0.1);
+$covi-secd-grn: #97d700;
+$covi-secd-gry: #9a9ea3;
+$covi-secd-red: #d50032;
+
+$covi-secd-ylw-med: rgba(255,198,0,0.7);
+// -----------
+
+
+// -----------
+html, body {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+}
+
+.mdl-layout__header-row {
+  padding: 0 24px;
+}
+
+.notif-error {
+  background: $covi-secd-red;
+}
+.notif-warn { 
+  background: $covi-secd-ylw;
+}
+.notif-success {
+  //background: $covi-secd-grn;
+  background: #34d100;
+}
+
+.simulator-form {
+  max-width: 70%;
+  button {
+    color: $covi-prim-dark;
+  }
+}
+.button-container {
+  text-align: center;
+}
+
+.section-title {
+  color: $covi-secd-gry;
+  vertical-align: super;
+  margin: 0 10px;
+}
+
+.demo-header {
+  //color: $covi-prim-med;
+  color: $covi-prim-gry;
+}
+.mdl-layout-title {
+  //font-weight: 200;
+}
+.header-logo {
+  width: 100px;
+}
+.realm-name {
+  font-size: 16px;
+  font-weight: 400;
+  color: $covi-prim-blk;
+}
+
+.policies-table-container {
+  width: 100%;
+  min-height: 220px;
+  max-height: 220px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.policies-table-container::-webkit-scrollbar {
+  display: none;
+}
+.policies-table {
+  width: 100%;
+  table-layout: fixed;
+  thead {
+    th {
+      color: $covi-prim-dark;
+      font-weight: 300;
+      overflow: hidden;
+    }
+    th:first-of-type {
+      text-align: center;
+      width: 10%;
+    }
+    th:last-of-type {
+      width: 10%;
+    }    
+  }
+  tbody {
+    //background: $covi-secd-org-lt;
+    tr:hover {
+      background: $covi-secd-org-lt;
+    }
+    td {
+      overflow: hidden;
+    }
+    td:first-of-type {
+      text-align: center;
+    }
+  }
+}
+.mdl-textfield__label {
+  font-weight: 300;
+}
+
+.tab-container {
+  min-height: 240px;
+  .mdl-tabs__tab-bar {
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: center;
+  }
+}
+.mdl-tabs.is-upgraded .mdl-tabs__tab.is-active:after {
+  background: $covi-secd-org;
+}
+
+.editor-container {
+  // having min-height keeps it visible when body width is reduced.
+  min-height: 200px;
+}
+
+.form-container {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  max-height: 270px;
+  background: $covi-secd-org-lt;
+}
+.form-container::-webkit-scrollbar {
+  display: none;
+}
+
+.policy-form {
+}
+
+.close-tab {
+  color: rgba(0,0,0,0.2);
+  margin: 16px 0 0 10px;
+  vertical-align: sub;
+}
+
+.login-form {
+  padding: 0px 32px;
+  button {
+    color: $covi-prim-dark;
+  }
+}
+
+.tabs-actions {
+  i {
+    color: $covi-prim-dark;
+    //color: $covi-prim-bright;
+  }
+}
+
+.hide {
+  display: none;
+}
+
+.demo-content {
+  // max-width: 1080px;
+  margin: 16px;
+}
+.demo-content::-webkit-scrollbar {
+  display: none;
+}
+
+.md-layout__content::-webkit-scrollbar {
+  display: none;
+}
+// -----------
+
+
+// -----------
+// md-icon recommended styles...
+.material-icons.md-12 { font-size: 12px; }
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+// -----------
+
+
+// -----------
+// accordion...
+.accordion .accordion-button {
+  cursor: pointer;
+}
+
+/*
+.accordion .accordion-content {
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+*/
+
+.accordion .accordion-icon {
+  -webkit-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.accordion .accordion-icon.down {
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  color: $covi-prim-gry;
+}
+
+.accordion.open .accordion-icon.down {
+  -webkit-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+  color: $covi-prim-blk;
+}
+// -----------

@@ -1,0 +1,11 @@
+node_modules
+bower_components
+dist
+
+.tmp
+_Spec*
+
+.DS_store
+**/.DS_store
+
+*sublime*

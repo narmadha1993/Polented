@@ -1,0 +1,1500 @@
+[
+  {
+    "id": "e151b24f-5d7e-4cb7-82ea-a0cea625794b",
+    "version": "g2wAAAACaAJtAAAADBPU1VmzxZrIAADCvGEBaAJtAAAADGgH1jCzxPadAACUr2EBag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594470849,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /password/operations/validate GET endpoint for \"VALIDATE_PASSWORDPOLICY\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "VALIDATE_PASSWORDPOLICY"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICByZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "5dedd0e7-c65f-4a7b-9a57-02938a9fdeeb",
+    "version": "g2wAAAABaAJtAAAADEILFwmFmubkAACUo2ECag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594487384,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /grants?grantedPackageId={packageId} GET endpoint for \"RETRIEVE_PACKAGEGRANTS\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "RETRIEVE_PACKAGEGRANTS"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "SERVICE"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICByZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "9f31a2f7-324b-48cf-8146-a9305a69e7a8",
+    "version": "g2wAAAACaAJtAAAADBPU1VmzxZrIAADCwGEBaAJtAAAADEILFwmFmubkAACUqGEBag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594569830,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to CREATE ATTRIBUTE TYPE"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow  requestor to CREATE ATTRIBUTE TYPE"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "CREATE_ATTRIBUTE_TYPE"
+    ],
+    "subjectTypes": [
+      "PERSON",
+      "APPLICATION"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplIChzdWJqZWN0LCByZXNvdXJjZSwgZW52QXR0cmlidXRlcykgeyAKdmFyIGVudGl0bGVtZW50Q291bnQgPSBzdWJqZWN0WyJncm91cEVudGl0bGVtZW50LmNvdW50Il07CmZvciAobnVtID0gMTsgbnVtPD1lbnRpdGxlbWVudENvdW50OyBudW0rKyl7CnZhciBlbnRpdGxlbWVudCA9IHN1YmplY3RbImdyb3VwRW50aXRsZW1lbnRbIiArIG51bSArICJdLm5hbWUiXTsKaWYoZW50aXRsZW1lbnQgPT0gImlvdC1hZG1pbi1hY2Nlc3MiKXsKcmV0dXJuICJQRVJNSVQiOwp9CmlmKGVudGl0bGVtZW50ID09ICJpb3Qtc29sdXRpb24tYWRtaW4tYWNjZXNzIil7CnJldHVybiAiUEVSTUlUIjsKfQp9CnJldHVybiAiREVOWSI7Cn0="
+  },
+  {
+    "id": "fa07651b-f8a9-4b97-bca6-0ebedab4605f",
+    "version": "g2wAAAABaAJtAAAADEILFwmzdEdwAACT4GECag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594570729,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to activate command template"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to activate command template"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "ACTIVATE_COMMAND_TEMPLATE"
+    ],
+    "subjectTypes": [
+      "PERSON",
+      "APPLICATION"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplIChzdWJqZWN0LCByZXNvdXJjZSwgZW52QXR0cmlidXRlcykgeyAKdmFyIGVudGl0bGVtZW50Q291bnQgPSBzdWJqZWN0WyJncm91cEVudGl0bGVtZW50LmNvdW50Il07CmZvciAobnVtID0gMTsgbnVtPD1lbnRpdGxlbWVudENvdW50OyBudW0rKyl7CnZhciBlbnRpdGxlbWVudCA9IHN1YmplY3RbImdyb3VwRW50aXRsZW1lbnRbIiArIG51bSArICJdLm5hbWUiXTsKaWYoZW50aXRsZW1lbnQgPT0gImlvdC1hZG1pbi1hY2Nlc3MiICl7CnJldHVybiAiUEVSTUlUIjsKfQppZihlbnRpdGxlbWVudCA9PSAiaW90LXNvbHV0aW9uLWFkbWluLWFjY2VzcyIgKXsKcmV0dXJuICJQRVJNSVQiOwp9Cn0KcmV0dXJuICJERU5ZIjsKfQ=="
+  },
+  {
+    "id": "b482b585-0e18-4d8d-b127-45b1640ca53c",
+    "version": "g2wAAAABaAJtAAAADEILFwmFmubkAACUqWECag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594576295,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to suspend device"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to suspend device"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "SUSPEND_DEVICE"
+    ],
+    "subjectTypes": [
+      "PERSON",
+      "APPLICATION"
+    ],
+    "resourceTypes": [
+      "DEVICE"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7CnZhciBlbnRpdGxlbWVudENvdW50ID0gc3ViamVjdFsiZ3JvdXBFbnRpdGxlbWVudC5jb3VudCJdOwpmb3IgKG51bSA9IDE7IG51bSA8PSBlbnRpdGxlbWVudENvdW50OyBudW0rKykgewp2YXIgZW50aXRsZW1lbnQgPSBzdWJqZWN0WyJncm91cEVudGl0bGVtZW50WyIgKyBudW0gKyAiXS5uYW1lIl07CmlmIChlbnRpdGxlbWVudCA9PSAiaW90LWFkbWluLWFjY2VzcyIpIHsKcmV0dXJuICJQRVJNSVQiOwp9CmlmIChlbnRpdGxlbWVudCA9PSAiaW90LXNvbHV0aW9uLWFkbWluLWFjY2VzcyIpIHsKcmV0dXJuICJQRVJNSVQiOwp9CmlmIChlbnRpdGxlbWVudCA9PSAiaW90LWRldmljZS1vd25zOiIgKyByZXNvdXJjZVsiZGV2aWNlLmlkIl0pIHsKcmV0dXJuICJQRVJNSVQiOwp9Cn0KcmV0dXJuICJERU5ZIjsKfQ=="
+  },
+  {
+    "id": "76c59c09-6e02-4f92-9086-63502b620387",
+    "version": "g2wAAAABaAJtAAAADEILFwmzdEdwAACT4WECag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594577916,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to read device template"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow re questor to read device template"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "READ_DEVICE_TEMPLATE"
+    ],
+    "subjectTypes": [
+      "PERSON",
+      "APPLICATION"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplIChzdWJqZWN0LCByZXNvdXJjZSwgZW52QXR0cmlidXRlcykgeyAKdmFyIGVudGl0bGVtZW50Q291bnQgPSBzdWJqZWN0WyJncm91cEVudGl0bGVtZW50LmNvdW50Il07CmZvciAobnVtID0gMTsgbnVtPD1lbnRpdGxlbWVudENvdW50OyBudW0rKyl7CnZhciBlbnRpdGxlbWVudCA9IHN1YmplY3RbImdyb3VwRW50aXRsZW1lbnRbIiArIG51bSArICJdLm5hbWUiXTsKaWYoZW50aXRsZW1lbnQgPT0gImlvdC1hZG1pbi1hY2Nlc3MiKXsKcmV0dXJuICJQRVJNSVQiOwp9CmlmKGVudGl0bGVtZW50ID09ICJpb3QtcmVhZC1vbmx5LWFjY2VzcyIpewpyZXR1cm4gIlBFUk1JVCI7Cn0KaWYoZW50aXRsZW1lbnQgPT0gImlvdC1zb2x1dGlvbi1hZG1pbi1hY2Nlc3MiKXsKcmV0dXJuICJQRVJNSVQiOwp9Cn0KcmV0dXJuICJERU5ZIjsKfQ=="
+  },
+  {
+    "id": "ed5f5f28-131e-45be-9023-0a6b1fee2901",
+    "version": "g2wAAAABaAJtAAAADBPU1VmzxZrIAADCxGECag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594589181,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to create orchestration config"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to create orchestration config"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "CREATE_ORCHESTRATION_CONFIG"
+    ],
+    "subjectTypes": [
+      "PERSON",
+      "APPLICATION"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplIChzdWJqZWN0LCByZXNvdXJjZSwgZW52QXR0cmlidXRlcykgeyAKdmFyIGVudGl0bGVtZW50Q291bnQgPSBzdWJqZWN0WyJncm91cEVudGl0bGVtZW50LmNvdW50Il07CmZvciAobnVtID0gMTsgbnVtPD1lbnRpdGxlbWVudENvdW50OyBudW0rKyl7CnZhciBlbnRpdGxlbWVudCA9IHN1YmplY3RbImdyb3VwRW50aXRsZW1lbnRbIiArIG51bSArICJdLm5hbWUiXTsKaWYoZW50aXRsZW1lbnQgPT0gImlvdC1hZG1pbi1hY2Nlc3MiICl7CnJldHVybiAiUEVSTUlUIjsKfQppZihlbnRpdGxlbWVudCA9PSAiaW90LXNvbHV0aW9uLWFkbWluLWFjY2VzcyIgKXsKcmV0dXJuICJQRVJNSVQiOwp9Cn0KcmV0dXJuICJERU5ZIjsKfQ=="
+  },
+  {
+    "id": "92dabd30-64a3-4a3d-bdd0-effb5333bff0",
+    "version": "g2wAAAACaAJtAAAADBPU1VmzxZrIAADCxWEBaAJtAAAADEILFwmzdEdwAACT52EBag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594603660,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to activate action defination template"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to activate action defination template"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "ACTIVATE_ACTION_DEFINITION_TEMPLATE"
+    ],
+    "subjectTypes": [
+      "PERSON",
+      "APPLICATION"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplIChzdWJqZWN0LCByZXNvdXJjZSwgZW52QXR0cmlidXRlcykgeyAKdmFyIGVudGl0bGVtZW50Q291bnQgPSBzdWJqZWN0WyJncm91cEVudGl0bGVtZW50LmNvdW50Il07CmZvciAobnVtID0gMTsgbnVtPD1lbnRpdGxlbWVudENvdW50OyBudW0rKyl7CnZhciBlbnRpdGxlbWVudCA9IHN1YmplY3RbImdyb3VwRW50aXRsZW1lbnRbIiArIG51bSArICJdLm5hbWUiXTsKaWYoZW50aXRsZW1lbnQgPT0gImlvdC1hZG1pbi1hY2Nlc3MiICl7CnJldHVybiAiUEVSTUlUIjsKfQppZihlbnRpdGxlbWVudCA9PSAiaW90LXNvbHV0aW9uLWFkbWluLWFjY2VzcyIgKXsKcmV0dXJuICJQRVJNSVQiOwp9Cn0KcmV0dXJuICJERU5ZIjsKfQ=="
+  },
+  {
+    "id": "bb297f36-ac01-4d37-8c5f-b19ad6189bd6",
+    "version": "g2wAAAABaAJtAAAADEILFwmFmubkAACUrGECag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594605941,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to delete rule defination"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to delete rule defination"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "DELETE_RULE_DEFINITION"
+    ],
+    "subjectTypes": [
+      "PERSON",
+      "APPLICATION"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplIChzdWJqZWN0LCByZXNvdXJjZSwgZW52QXR0cmlidXRlcykgeyAKdmFyIGVudGl0bGVtZW50Q291bnQgPSBzdWJqZWN0WyJncm91cEVudGl0bGVtZW50LmNvdW50Il07CnZhciBlbnRpdGxlbWVudCA9IHN1YmplY3RbImdyb3VwRW50aXRsZW1lbnRbIiArIG51bSArICJdLm5hbWUiXTsKZm9yIChudW0gPSAxOyBudW08PWVudGl0bGVtZW50Q291bnQ7IG51bSsrKXsKaWYoZW50aXRsZW1lbnQgPT0gImlvdC1hZG1pbi1hY2Nlc3MiICl7CnJldHVybiAiUEVSTUlUIjsKfQppZihlbnRpdGxlbWVudCA9PSAiaW90LXNvbHV0aW9uLWFkbWluLWFjY2VzcyIgKXsKcmV0dXJuICJQRVJNSVQiOwp9Cn0KcmV0dXJuICJERU5ZIjsKfQ=="
+  },
+  {
+    "id": "759d5fca-2e9c-4903-a0c2-f34e7a390f63",
+    "version": "g2wAAAACaAJtAAAADBPU1Vm3HBDRAADBwWEBaAJtAAAADGgH1jDQYWalAACWDGEBag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594465062,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /securityQuestions GET endpoint for \"RETRIEVE_SECURITYQUESTIONS\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "RETRIEVE_SECURITYQUESTIONS"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICByZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "d4c80935-07c1-43be-a647-233da73d8bf2",
+    "version": "g2wAAAABaAJtAAAADGgH1jC1y6h5AACVsmECag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594480295,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /personInvitations GET endpoint for \"RETRIEVE_PERSONINVITATIONS\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "RETRIEVE_PERSONINVITATIONS"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICByZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "7a3fe8e0-0e9b-44d7-852a-c863852ff4f9",
+    "version": "g2wAAAABaAJtAAAADEILFwm2jqRbAACVMWECag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594480982,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /requests POST endpoint for \"REQUEST_PERSONREG\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "REQUEST_PERSONREG"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJdmFyIHZhbHVlID0gImZ1bGwtYWNjZXNzIjsNCgkgICBmb3IodmFyIHByb3AgaW4gc3ViamVjdCApIHsNCgkgICAgICAgaWYoIHN1YmplY3QuaGFzT3duUHJvcGVydHkoIHByb3AgKSApIHsNCgkgICAgCSAgIGlmKCBzdWJqZWN0WyBwcm9wIF0gPT09IHZhbHVlICkNCgkgICAgICAgICAgICAJcmV0dXJuICJQRVJNSVQiOw0KCSAgICAgICB9DQoJICAgfQ0KCSAgIAlyZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "84324154-fb90-4f9c-9b88-b48adc827ad2",
+    "version": "g2wAAAABaAJtAAAADEILFwm2jqRbAACVMmECag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594484599,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /persons/{personId}/packages/{packageId} PUT endpoint for \"UPDATE_PERSONPACKAGEGRANT\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "UPDATE_PERSONPACKAGEGRANT"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICByZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "cd66b13b-1e69-4304-81f9-7b36c30d21fa",
+    "version": "g2wAAAABaAJtAAAADEILFwkcVgOCAACV6mECag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594486273,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /requests/{id} - user package GET endpoint for \"RETRIEVE_USERPACKAGEREQUEST\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "RETRIEVE_USERPACKAGEREQUEST"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICAgaWYoc3ViamVjdFsicGVyc29uLmlkIl0gPT0gcmVzb3VyY2VbInBlcnNvbi5pZCJdKQ0KCSAgICAgIHJldHVybiAiUEVSTUlUIjsNCgkgICByZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "eb5d257e-65a5-492e-8a9c-0f564d60a33e",
+    "version": "g2wAAAACaAJtAAAADEILFwm2jqRbAACVNmEBaAJtAAAADGgH1jDQYWalAACWEGEBag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594486695,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /requests/{id} - org package GET endpoint for \"RETRIEVE_ORGPACKAGESREQUEST\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "RETRIEVE_ORGPACKAGESREQUEST"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "ORGANIZATION"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICByZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "deef956e-9759-4f11-aa25-38ea0fe2c4b1",
+    "version": "g2wAAAABaAJtAAAADEILFwm2jqRbAACVN2ECag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594486867,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /requests/{id} - org package DELETE endpoint for \"DELETE_ORGPACKAGEREQUEST\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "DELETE_ORGPACKAGEREQUEST"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "ORGANIZATION"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICByZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "45bde005-cb5c-4280-8f2c-aef10217a484",
+    "version": "g2wAAAACaAJtAAAADEILFwm2jqRbAACVOWEBaAJtAAAADGgH1jDQYWalAACWFWEBag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594489067,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /packages/{packageId}/services GET endpoint for \"RETRIEVE_SERVICEBYPACKAGE\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "RETRIEVE_SERVICESBYPACKAGE"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "SERVICE"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJDQoJaWYgKHJlc291cmNlWyJzZXJ2aWNlLnJlcXVlc3RzRW5hYmxlZCJdID09IHRydWUpIA0KCQlyZXR1cm4gIlBFUk1JVCI7DQoJDQoJdmFyIHZhbHVlID0gcmVzb3VyY2VbICJzZXJ2aWNlLnBhY2thZ2VJZCJdOw0KCSAgIGZvcih2YXIgcHJvcCBpbiBzdWJqZWN0ICkgew0KCSAgICAgICBpZiggc3ViamVjdC5oYXNPd25Qcm9wZXJ0eSggcHJvcCApICkgew0KCSAgICAJICAgaWYoIHN1YmplY3RbIHByb3AgXSA9PT0gdmFsdWUgKQ0KCSAgICAgICAgICAgIAlyZXR1cm4gIlBFUk1JVCI7DQoJICAgICAgIH0NCgkgICB9DQoJICAgCXJldHVybiAiREVOWSI7DQp9"
+  },
+  {
+    "id": "721e78bf-518c-44cc-9a58-d1172aab81d5",
+    "version": "g2wAAAACaAJtAAAADBPU1Vm3HBDRAADB0WEBaAJtAAAADEILFwm2jqRbAACVQ2EBag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594575602,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to register device"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to register device"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "REGISTER_DEVICE"
+    ],
+    "subjectTypes": [
+      "PERSON",
+      "APPLICATION"
+    ],
+    "resourceTypes": [
+      "DEVICE"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7CnZhciBlbnRpdGxlbWVudENvdW50ID0gc3ViamVjdFsiZ3JvdXBFbnRpdGxlbWVudC5jb3VudCJdOwpmb3IgKG51bSA9IDE7IG51bSA8PSBlbnRpdGxlbWVudENvdW50OyBudW0rKykgewp2YXIgZW50aXRsZW1lbnQgPSBzdWJqZWN0WyJncm91cEVudGl0bGVtZW50WyIgKyBudW0gKyAiXS5uYW1lIl07CmlmIChlbnRpdGxlbWVudCA9PSAiaW90LWFkbWluLWFjY2VzcyIpIHsKcmV0dXJuICJQRVJNSVQiOwp9CmlmIChlbnRpdGxlbWVudCA9PSAiaW90LXNvbHV0aW9uLWFkbWluLWFjY2VzcyIpIHsKcmV0dXJuICJQRVJNSVQiOwp9CmlmIChlbnRpdGxlbWVudCA9PSAiaW90LWRldmljZS1vd25zOiIgKyByZXNvdXJjZVsiZGV2aWNlLmlkIl0pIHsKcmV0dXJuICJQRVJNSVQiOwp9Cn0KcmV0dXJuICJERU5ZIjsKfQ=="
+  },
+  {
+    "id": "a02a5a03-31d3-4fa4-8019-34748420ddd2",
+    "version": "g2wAAAABaAJtAAAADEILFwkcVgOCAACV8mECag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594580430,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to count event source"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to count event source"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "COUNT_EVENT_SOURCE"
+    ],
+    "subjectTypes": [
+      "PERSON",
+      "APPLICATION"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplIChzdWJqZWN0LCByZXNvdXJjZSwgZW52QXR0cmlidXRlcykgeyAKdmFyIGVudGl0bGVtZW50Q291bnQgPSBzdWJqZWN0WyJncm91cEVudGl0bGVtZW50LmNvdW50Il07CmZvciAobnVtID0gMTsgbnVtPD1lbnRpdGxlbWVudENvdW50OyBudW0rKyl7CnZhciBlbnRpdGxlbWVudCA9IHN1YmplY3RbImdyb3VwRW50aXRsZW1lbnRbIiArIG51bSArICJdLm5hbWUiXTsKaWYoZW50aXRsZW1lbnQgPT0gImlvdC1hZG1pbi1hY2Nlc3MiICl7CnJldHVybiAiUEVSTUlUIjsKfQppZihlbnRpdGxlbWVudCA9PSAiaW90LXJlYWQtb25seS1hY2Nlc3MiICl7CnJldHVybiAiUEVSTUlUIjsKfQppZihlbnRpdGxlbWVudCA9PSAiaW90LXNvbHV0aW9uLWFkbWluLWFjY2VzcyIgKXsKcmV0dXJuICJQRVJNSVQiOwp9Cn0KcmV0dXJuICJERU5ZIjsKfQ=="
+  },
+  {
+    "id": "e5f8005b-fbd4-4a87-b990-69413aed2d17",
+    "version": "g2wAAAABaAJtAAAADEILFwkcVgOCAACV82ECag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594585636,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to create document"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to create document"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "CREATE_DOCUMENT_INFO"
+    ],
+    "subjectTypes": [
+      "PERSON",
+      "APPLICATION"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplIChzdWJqZWN0LCByZXNvdXJjZSwgZW52QXR0cmlidXRlcykgeyAKdmFyIGVudGl0bGVtZW50Q291bnQgPSBzdWJqZWN0WyJncm91cEVudGl0bGVtZW50LmNvdW50Il07CmZvciAobnVtID0gMTsgbnVtPD1lbnRpdGxlbWVudENvdW50OyBudW0rKyl7CnZhciBlbnRpdGxlbWVudCA9IHN1YmplY3RbImdyb3VwRW50aXRsZW1lbnRbIiArIG51bSArICJdLm5hbWUiXTsKaWYoZW50aXRsZW1lbnQgPT0gImlvdC1hZG1pbi1hY2Nlc3MiICl7CnJldHVybiAiUEVSTUlUIjsKfQppZihlbnRpdGxlbWVudCA9PSAiaW90LXNvbHV0aW9uLWFkbWluLWFjY2VzcyIgKXsKcmV0dXJuICJQRVJNSVQiOwp9Cn0KcmV0dXJuICJERU5ZIjsKfQ=="
+  },
+  {
+    "id": "bbe32284-3a42-4067-8400-67379d1a1460",
+    "version": "g2wAAAABaAJtAAAADGgH1jDQYWalAACWIGECag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594591362,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to search orchestration config"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to search orchestration config"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "SEARCH_ORCHESTRATION_CONFIG"
+    ],
+    "subjectTypes": [
+      "PERSON",
+      "APPLICATION"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplIChzdWJqZWN0LCByZXNvdXJjZSwgZW52QXR0cmlidXRlcykgeyAKdmFyIGVudGl0bGVtZW50Q291bnQgPSBzdWJqZWN0WyJncm91cEVudGl0bGVtZW50LmNvdW50Il07CmZvciAobnVtID0gMTsgbnVtPD1lbnRpdGxlbWVudENvdW50OyBudW0rKyl7CnZhciBlbnRpdGxlbWVudCA9IHN1YmplY3RbImdyb3VwRW50aXRsZW1lbnRbIiArIG51bSArICJdLm5hbWUiXTsKaWYoZW50aXRsZW1lbnQgPT0gImlvdC1hZG1pbi1hY2Nlc3MiICl7CnJldHVybiAiUEVSTUlUIjsKfQppZihlbnRpdGxlbWVudCA9PSAiaW90LXJlYWQtb25seS1hY2Nlc3MiICl7CnJldHVybiAiUEVSTUlUIjsKfQppZihlbnRpdGxlbWVudCA9PSAiaW90LXNvbHV0aW9uLWFkbWluLWFjY2VzcyIgKXsKcmV0dXJuICJQRVJNSVQiOwp9Cn0KcmV0dXJuICJERU5ZIjsKfQ=="
+  },
+  {
+    "id": "6993118b-51ae-4bba-b9de-5e496436e0ab",
+    "version": "g2wAAAABaAJtAAAADEILFwm2jqRbAACVR2ECag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594605766,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to de-activate rule defination"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to de-activate rule defination"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "DEACTIVATE_RULE_DEFINITION"
+    ],
+    "subjectTypes": [
+      "PERSON",
+      "APPLICATION"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplIChzdWJqZWN0LCByZXNvdXJjZSwgZW52QXR0cmlidXRlcykgeyAKdmFyIGVudGl0bGVtZW50Q291bnQgPSBzdWJqZWN0WyJncm91cEVudGl0bGVtZW50LmNvdW50Il07CmZvciAobnVtID0gMTsgbnVtPD1lbnRpdGxlbWVudENvdW50OyBudW0rKyl7CnZhciBlbnRpdGxlbWVudCA9IHN1YmplY3RbImdyb3VwRW50aXRsZW1lbnRbIiArIG51bSArICJdLm5hbWUiXTsKaWYoZW50aXRsZW1lbnQgPT0gImlvdC1hZG1pbi1hY2Nlc3MiICl7CnJldHVybiAiUEVSTUlUIjsKfQppZihlbnRpdGxlbWVudCA9PSAiaW90LXNvbHV0aW9uLWFkbWluLWFjY2VzcyIgKXsKcmV0dXJuICJQRVJNSVQiOwp9Cn0KcmV0dXJuICJERU5ZIjsKfQ=="
+  },
+  {
+    "id": "b181811f-0bd1-4cef-b310-7445072c9540",
+    "version": "g2wAAAABaAJtAAAADEILFwm2jqRbAACVSWECag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594611715,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to to read trigger defination template"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow re questor to read trigger defination template"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "GET_TRIGGER_DEFINITION_TEMPLATE"
+    ],
+    "subjectTypes": [
+      "PERSON",
+      "APPLICATION"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplIChzdWJqZWN0LCByZXNvdXJjZSwgZW52QXR0cmlidXRlcykgeyAKdmFyIGVudGl0bGVtZW50Q291bnQgPSBzdWJqZWN0WyJncm91cEVudGl0bGVtZW50LmNvdW50Il07CmZvciAobnVtID0gMTsgbnVtPD1lbnRpdGxlbWVudENvdW50OyBudW0rKyl7CnZhciBlbnRpdGxlbWVudCA9IHN1YmplY3RbImdyb3VwRW50aXRsZW1lbnRbIiArIG51bSArICJdLm5hbWUiXTsKaWYoZW50aXRsZW1lbnQgPT0gImlvdC1hZG1pbi1hY2Nlc3MiICl7CnJldHVybiAiUEVSTUlUIjsKfQppZihlbnRpdGxlbWVudCA9PSAiaW90LXJlYWQtb25seS1hY2Nlc3MiICl7CnJldHVybiAiUEVSTUlUIjsKfQppZihlbnRpdGxlbWVudCA9PSAiaW90LXNvbHV0aW9uLWFkbWluLWFjY2VzcyIgKXsKcmV0dXJuICJQRVJNSVQiOwp9Cn0KcmV0dXJuICJERU5ZIjsKfQ=="
+  },
+  {
+    "id": "59ea96e8-2f45-44a0-98f8-66a4945497ed",
+    "version": "g2wAAAABaAJtAAAADGgH1jC1y6h5AACVyGECag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594614623,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to Count all processor Audits"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to Count all processor Audits"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "PROCESSOR_AUDIT_COUNT"
+    ],
+    "subjectTypes": [
+      "PERSON",
+      "APPLICATION"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplIChzdWJqZWN0LCByZXNvdXJjZSwgZW52QXR0cmlidXRlcykgeyAKdmFyIGVudGl0bGVtZW50Q291bnQgPSBzdWJqZWN0WyJncm91cEVudGl0bGVtZW50LmNvdW50Il07CmZvciAobnVtID0gMTsgbnVtPD1lbnRpdGxlbWVudENvdW50OyBudW0rKyl7CnZhciBlbnRpdGxlbWVudCA9IHN1YmplY3RbImdyb3VwRW50aXRsZW1lbnRbIiArIG51bSArICJdLm5hbWUiXTsKaWYoZW50aXRsZW1lbnQgPT0gImlvdC1hZG1pbi1hY2Nlc3MiICl7CnJldHVybiAiUEVSTUlUIjsKfQppZihlbnRpdGxlbWVudCA9PSAiaW90LXJlYWQtb25seS1hY2Nlc3MiICl7CnJldHVybiAiUEVSTUlUIjsKfQppZihlbnRpdGxlbWVudCA9PSAiaW90LXNvbHV0aW9uLWFkbWluLWFjY2VzcyIgKXsKcmV0dXJuICJQRVJNSVQiOwp9Cn0KcmV0dXJuICJERU5ZIjsKfQ=="
+  },
+  {
+    "id": "fe50c598-ec82-4f63-8607-00b060fd22c4",
+    "version": "g2wAAAABaAJtAAAADEILFwkX91qrAACUcWECag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594482434,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /persons/registration POST endpoint for \"CREATE_PERSONREG\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "CREATE_PERSONREG"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJdmFyIHZhbHVlID0gImZ1bGwtYWNjZXNzIjsNCgkgICBmb3IodmFyIHByb3AgaW4gc3ViamVjdCApIHsNCgkgICAgICAgaWYoIHN1YmplY3QuaGFzT3duUHJvcGVydHkoIHByb3AgKSApIHsNCgkgICAgCSAgIGlmKCBzdWJqZWN0WyBwcm9wIF0gPT09IHZhbHVlICkNCgkgICAgICAgICAgICAJcmV0dXJuICJQRVJNSVQiOw0KCSAgICAgICB9DQoJICAgfQ0KCSAgIAlyZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "15b03865-625e-48f2-a53f-9b1e62031122",
+    "version": "g2wAAAABaAJtAAAADEILFwkX91qrAACUcmECag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594484059,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /services GET endpoint for \"RETRIEVE_SERVICES\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "RETRIEVE_SERVICES"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICByZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "a67942d9-d062-49cc-bb46-9120fcd06d8a",
+    "version": "g2wAAAABaAJtAAAADGgH1jDobqhaAACVHmECag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594484417,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /persons/{personId}/packages GET endpoint for \"RETRIEVE_PERSONPACKAGES\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "RETRIEVE_PERSONPACKAGES"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICAgaWYoc3ViamVjdFsicGVyc29uLmlkIl0gPT0gcmVzb3VyY2VbInBlcnNvbi5pZCJdKQ0KCSAgICAgIHJldHVybiAiUEVSTUlUIjsNCgkgICByZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "f50367aa-f74e-431d-b93b-ad7143ecb3e2",
+    "version": "g2wAAAACaAJtAAAADBPU1Vm+9WMQAADBoWEBaAJtAAAADEILFwkX91qrAACUemEBag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594566457,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to delete application"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to delete application"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "DELETE_APPLICATION"
+    ],
+    "subjectTypes": [
+      "PERSON",
+      "APPLICATION"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplIChzdWJqZWN0LCByZXNvdXJjZSwgZW52QXR0cmlidXRlcykgeyAKdmFyIGVudGl0bGVtZW50Q291bnQgPSBzdWJqZWN0WyJncm91cEVudGl0bGVtZW50LmNvdW50Il07CmZvciAobnVtID0gMTsgbnVtPD1lbnRpdGxlbWVudENvdW50OyBudW0rKyl7CnZhciBlbnRpdGxlbWVudCA9IHN1YmplY3RbImdyb3VwRW50aXRsZW1lbnRbIiArIG51bSArICJdLm5hbWUiXTsKaWYoZW50aXRsZW1lbnQgPT0gImlvdC1hZG1pbi1hY2Nlc3MiICl7CnJldHVybiAiUEVSTUlUIjsKfQppZihlbnRpdGxlbWVudCA9PSAiaW90LXNvbHV0aW9uLWFkbWluLWFjY2VzcyIgKXsKcmV0dXJuICJQRVJNSVQiOwp9Cn0KcmV0dXJuICJERU5ZIjsKfQ=="
+  },
+  {
+    "id": "cbeea4b1-291a-4e40-a111-64e5b55aace9",
+    "version": "g2wAAAACaAJtAAAADBPU1Vm+9WMQAADBomEBaAJtAAAADEILFwkX91qrAACUfWEBag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594576121,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to search device"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow re questor to search device"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "SEARCH_DEVICE"
+    ],
+    "subjectTypes": [
+      "PERSON",
+      "APPLICATION"
+    ],
+    "resourceTypes": [
+      "DEVICE"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7CnZhciBlbnRpdGxlbWVudENvdW50ID0gc3ViamVjdFsiZ3JvdXBFbnRpdGxlbWVudC5jb3VudCJdOwpmb3IgKG51bSA9IDE7IG51bSA8PSBlbnRpdGxlbWVudENvdW50OyBudW0rKykgewp2YXIgZW50aXRsZW1lbnQgPSBzdWJqZWN0WyJncm91cEVudGl0bGVtZW50WyIgKyBudW0gKyAiXS5uYW1lIl07CmlmIChlbnRpdGxlbWVudCA9PSAiaW90LWFkbWluLWFjY2VzcyIpIHsKcmV0dXJuICJQRVJNSVQiOwp9CQkKaWYgKGVudGl0bGVtZW50ID09ICJpb3Qtc29sdXRpb24tYWRtaW4tYWNjZXNzIikgewpyZXR1cm4gIlBFUk1JVCI7Cn0KaWYgKGVudGl0bGVtZW50ID09ICJpb3QtcmVhZC1vbmx5LWFjY2VzcyIpIHsKcmV0dXJuICJQRVJNSVQiOwp9Cn0KcmV0dXJuICJERU5ZIjsKfQ=="
+  },
+  {
+    "id": "b8d5f95c-4ccf-4efc-a6e2-91fb328fce97",
+    "version": "g2wAAAABaAJtAAAADEILFwkX91qrAACUfmECag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594578101,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to add tag from device template"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to remove tag from device template"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "REMOVE_TAG_DEVICE_TEMPLATE"
+    ],
+    "subjectTypes": [
+      "PERSON",
+      "APPLICATION"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplIChzdWJqZWN0LCByZXNvdXJjZSwgZW52QXR0cmlidXRlcykgeyAKdmFyIGVudGl0bGVtZW50Q291bnQgPSBzdWJqZWN0WyJncm91cEVudGl0bGVtZW50LmNvdW50Il07CmZvciAobnVtID0gMTsgbnVtPD1lbnRpdGxlbWVudENvdW50OyBudW0rKyl7CnZhciBlbnRpdGxlbWVudCA9IHN1YmplY3RbImdyb3VwRW50aXRsZW1lbnRbIiArIG51bSArICJdLm5hbWUiXTsKaWYoZW50aXRsZW1lbnQgPT0gImlvdC1hZG1pbi1hY2Nlc3MiKXsKcmV0dXJuICJQRVJNSVQiOwp9CmlmKGVudGl0bGVtZW50ID09ICJpb3Qtc29sdXRpb24tYWRtaW4tYWNjZXNzIil7CnJldHVybiAiUEVSTUlUIjsKfQp9CnJldHVybiAiREVOWSI7Cn0="
+  },
+  {
+    "id": "22e86e30-d8e7-4d7b-aafd-c76d10910412",
+    "version": "g2wAAAABaAJtAAAADEILFwkX91qrAACUf2ECag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594580252,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to un-bind event field"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow  requestor to un-bind event field"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "UNBIND_EVENTFIELD"
+    ],
+    "subjectTypes": [
+      "PERSON",
+      "APPLICATION"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplIChzdWJqZWN0LCByZXNvdXJjZSwgZW52QXR0cmlidXRlcykgeyAKdmFyIGVudGl0bGVtZW50Q291bnQgPSBzdWJqZWN0WyJncm91cEVudGl0bGVtZW50LmNvdW50Il07CmZvciAobnVtID0gMTsgbnVtPD1lbnRpdGxlbWVudENvdW50OyBudW0rKyl7CnZhciBlbnRpdGxlbWVudCA9IHN1YmplY3RbImdyb3VwRW50aXRsZW1lbnRbIiArIG51bSArICJdLm5hbWUiXTsKaWYoZW50aXRsZW1lbnQgPT0gImlvdC1hZG1pbi1hY2Nlc3MiICl7CnJldHVybiAiUEVSTUlUIjsKfQppZihlbnRpdGxlbWVudCA9PSAiaW90LXNvbHV0aW9uLWFkbWluLWFjY2VzcyIgKXsKcmV0dXJuICJQRVJNSVQiOwp9Cn0KcmV0dXJuICJERU5ZIjsKfQ=="
+  },
+  {
+    "id": "e011155a-9207-4598-b63b-01309eee0b09",
+    "version": "g2wAAAABaAJtAAAADEILFwkX91qrAACUgGECag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594584921,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to read analytics definition"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to read analytics definition"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "READ_ANALYTICS_DEFINITION"
+    ],
+    "subjectTypes": [
+      "PERSON",
+      "APPLICATION"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplIChzdWJqZWN0LCByZXNvdXJjZSwgZW52QXR0cmlidXRlcykgeyAKdmFyIGVudGl0bGVtZW50Q291bnQgPSBzdWJqZWN0WyJncm91cEVudGl0bGVtZW50LmNvdW50Il07CmZvciAobnVtID0gMTsgbnVtPD1lbnRpdGxlbWVudENvdW50OyBudW0rKyl7CnZhciBlbnRpdGxlbWVudCA9IHN1YmplY3RbImdyb3VwRW50aXRsZW1lbnRbIiArIG51bSArICJdLm5hbWUiXTsKaWYoZW50aXRsZW1lbnQgPT0gImlvdC1hZG1pbi1hY2Nlc3MiICl7CnJldHVybiAiUEVSTUlUIjsKfQppZihlbnRpdGxlbWVudCA9PSAiaW90LXJlYWQtb25seS1hY2Nlc3MiICl7CnJldHVybiAiUEVSTUlUIjsKfQppZihlbnRpdGxlbWVudCA9PSAiaW90LXNvbHV0aW9uLWFkbWluLWFjY2VzcyIgKXsKcmV0dXJuICJQRVJNSVQiOwp9Cn0KcmV0dXJuICJERU5ZIjsKfQ=="
+  },
+  {
+    "id": "f48a276b-0dc8-4c6a-9611-ee313ee369b1",
+    "version": "g2wAAAACaAJtAAAADBPU1Vm+9WMQAADBp2EBaAJtAAAADEILFwkX91qrAACUgWEBag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594587406,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to read document info"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to read document info"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "READ_DOCUMENT_INFO"
+    ],
+    "subjectTypes": [
+      "PERSON",
+      "APPLICATION"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplIChzdWJqZWN0LCByZXNvdXJjZSwgZW52QXR0cmlidXRlcykgeyANCnZhciBlbnRpdGxlbWVudENvdW50ID0gc3ViamVjdFsiZ3JvdXBFbnRpdGxlbWVudC5jb3VudCJdOw0KZm9yIChudW0gPSAxOyBudW08PWVudGl0bGVtZW50Q291bnQ7IG51bSsrKXsNCmlmKHN1YmplY3RbImdyb3VwRW50aXRsZW1lbnRbIiArIG51bSArICJdLm5hbWUiXSA9PSAiaW90LWFkbWluLWFjY2VzcyIgKXsNCnJldHVybiAiUEVSTUlUIjsNCn0NCmlmKHN1YmplY3RbImdyb3VwRW50aXRsZW1lbnRbIiArIG51bSArICJdLm5hbWUiXSA9PSAiaW90LXJlYWQtb25seS1hY2Nlc3MiICl7DQpyZXR1cm4gIlBFUk1JVCI7DQp9DQppZihzdWJqZWN0WyJncm91cEVudGl0bGVtZW50WyIgKyBudW0gKyAiXS5uYW1lIl0gPT0gImlvdC1zb3V0aW9uLWFkbWluLWFjY2VzcyIgKXsNCnJldHVybiAiUEVSTUlUIjsNCn0NCn0NCnJldHVybiAiREVOWSI7DQp9"
+  },
+  {
+    "id": "dc4c21d1-dddb-4f56-8e67-453deb71c70d",
+    "version": "g2wAAAABaAJtAAAADBPU1Vm+9WMQAADBqGECag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594605066,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to activate rule defination"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to activate rule defination"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "ACTIVATE_RULE_DEFINITION"
+    ],
+    "subjectTypes": [
+      "PERSON",
+      "APPLICATION"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplIChzdWJqZWN0LCByZXNvdXJjZSwgZW52QXR0cmlidXRlcykgeyAKdmFyIGVudGl0bGVtZW50Q291bnQgPSBzdWJqZWN0WyJncm91cEVudGl0bGVtZW50LmNvdW50Il07CmZvciAobnVtID0gMTsgbnVtPD1lbnRpdGxlbWVudENvdW50OyBudW0rKyl7CnZhciBlbnRpdGxlbWVudCA9IHN1YmplY3RbImdyb3VwRW50aXRsZW1lbnRbIiArIG51bSArICJdLm5hbWUiXTsKaWYoZW50aXRsZW1lbnQgPT0gImlvdC1hZG1pbi1hY2Nlc3MiICl7CnJldHVybiAiUEVSTUlUIjsKfQppZihlbnRpdGxlbWVudCA9PSAiaW90LXNvbHV0aW9uLWFkbWluLWFjY2VzcyIgKXsKcmV0dXJuICJQRVJNSVQiOwp9Cn0KcmV0dXJuICJERU5ZIjsKfQ=="
+  },
+  {
+    "id": "9930291a-ce9a-4a56-86cb-cb1fa0c0d6c5",
+    "version": "g2wAAAABaAJtAAAADEILFwmFmq+yAACVJmECag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594605595,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to create rule defination"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to create rule defination"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "CREATE_RULE_DEFINITIONS"
+    ],
+    "subjectTypes": [
+      "PERSON",
+      "APPLICATION"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplIChzdWJqZWN0LCByZXNvdXJjZSwgZW52QXR0cmlidXRlcykgeyAKdmFyIGVudGl0bGVtZW50Q291bnQgPSBzdWJqZWN0WyJncm91cEVudGl0bGVtZW50LmNvdW50Il07CmZvciAobnVtID0gMTsgbnVtPD1lbnRpdGxlbWVudENvdW50OyBudW0rKyl7CnZhciBlbnRpdGxlbWVudCA9IHN1YmplY3RbImdyb3VwRW50aXRsZW1lbnRbIiArIG51bSArICJdLm5hbWUiXTsKaWYoZW50aXRsZW1lbnQgPT0gImlvdC1hZG1pbi1hY2Nlc3MiICl7CnJldHVybiAiUEVSTUlUIjsKfQppZihlbnRpdGxlbWVudCA9PSAiaW90LXNvbHV0aW9uLWFkbWluLWFjY2VzcyIgKXsKcmV0dXJuICJQRVJNSVQiOwp9Cn0KcmV0dXJuICJERU5ZIjsKfQ=="
+  },
+  {
+    "id": "877af83e-d4b9-4ca8-92f0-ff7a7d437781",
+    "version": "g2wAAAACaAJtAAAADBPU1Vm+9WMQAADBqmEBaAJtAAAADEILFwkX91qrAACUhWEBag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594612465,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to send event"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to send event"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "SEND_EVENT"
+    ],
+    "subjectTypes": [
+      "PERSON",
+      "APPLICATION"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7CnZhciBlbnRpdGxlbWVudENvdW50ID0gc3ViamVjdFsiZ3JvdXBFbnRpdGxlbWVudC5jb3VudCJdOwpmb3IgKG51bSA9IDE7IG51bSA8PSBlbnRpdGxlbWVudENvdW50OyBudW0rKykgewp2YXIgZW50aXRsZW1lbnQgPSBzdWJqZWN0WyJncm91cEVudGl0bGVtZW50WyIgKyBudW0gKyAiXS5uYW1lIl07CmlmIChlbnRpdGxlbWVudCA9PSAiaW90LWFkbWluLWFjY2VzcyIpIHsKcmV0dXJuICJQRVJNSVQiOwp9CmlmIChlbnRpdGxlbWVudCA9PSAiaW90LXNvbHV0aW9uLWFkbWluLWFjY2VzcyIpIHsKcmV0dXJuICJQRVJNSVQiOwp9CmlmIChlbnRpdGxlbWVudCA9PSAiaW90LWRldmljZS1vd25zOiIgKyByZXNvdXJjZVsiZGV2aWNlLmlkIl0pIHsKcmV0dXJuICJQRVJNSVQiOwp9CmlmIChlbnRpdGxlbWVudCA9PSAiaW90LWRldmljZS1hZG1pbmlzdGVyczoiICsgcmVzb3VyY2VbImRldmljZS5pZCJdKSB7CnJldHVybiAiUEVSTUlUIjsKfQppZiAoZW50aXRsZW1lbnQgPT0gImlvdC1kZXZpY2UtdXNlczoiICsgcmVzb3VyY2VbImRldmljZS5pZCJdKSB7CnJldHVybiAiUEVSTUlUIjsKfQp9CnJldHVybiAiREVOWSI7Cn0="
+  },
+  {
+    "id": "38615976-b1a3-4501-a4f1-80c3ee6f1987",
+    "version": "g2wAAAACaAJtAAAADEILFwkX91qrAACUhmEBaAJtAAAADGgH1jCGBa+KAACT3mEBag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594613339,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to delete stream"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow  requestor to delete stream"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "DELETE_STREAM"
+    ],
+    "subjectTypes": [
+      "PERSON",
+      "APPLICATION"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplIChzdWJqZWN0LCByZXNvdXJjZSwgZW52QXR0cmlidXRlcykgeyAKdmFyIGVudGl0bGVtZW50Q291bnQgPSBzdWJqZWN0WyJncm91cEVudGl0bGVtZW50LmNvdW50Il07CmZvciAobnVtID0gMTsgbnVtPD1lbnRpdGxlbWVudENvdW50OyBudW0rKyl7CnZhciBlbnRpdGxlbWVudCA9IHN1YmplY3RbImdyb3VwRW50aXRsZW1lbnRbIiArIG51bSArICJdLm5hbWUiXTsKaWYoZW50aXRsZW1lbnQgPT0gImlvdC1hZG1pbi1hY2Nlc3MiKXsKcmV0dXJuICJQRVJNSVQiOwp9CmlmKGVudGl0bGVtZW50ID09ICJpb3Qtc29sdXRpb24tYWRtaW4tYWNjZXNzIil7CnJldHVybiAiUEVSTUlUIjsKfQp9CnJldHVybiAiREVOWSI7Cn0="
+  },
+  {
+    "id": "5b3516f8-ecbc-435d-b2df-aeca3e830453",
+    "version": "g2wAAAABaAJtAAAADGgH1jDn9U0yAACUv2ECag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594478699,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /persons/{personId} GET endpoint for \"RETRIEVE_PERSON\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "RETRIEVE_PERSON"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICAgaWYoc3ViamVjdFsicGVyc29uLmlkIl0gPT0gcmVzb3VyY2VbInBlcnNvbi5pZCJdKQ0KCSAgICAgIHJldHVybiAiUEVSTUlUIjsNCgkgICByZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "d49758bd-0197-433f-8a98-ae42bc05465a",
+    "version": "g2wAAAABaAJtAAAADEILFwm1kKMIAACVeGECag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594484771,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /persons/{personId}/packages/{packageId} GET endpoint for \"RETRIEVE_PERSONPACKAGEGRANT\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "RETRIEVE_PERSONPACKAGEGRANT"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICAgaWYoc3ViamVjdFsicGVyc29uLmlkIl0gPT0gcmVzb3VyY2VbInBlcnNvbi5pZCJdKQ0KCSAgICAgIHJldHVybiAiUEVSTUlUIjsNCgkgICByZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "d985df6d-2d19-4b21-a9a7-30058560ecf7",
+    "version": "g2wAAAACaAJtAAAADEILFwm1/rQvAACVC2EBaAJtAAAADGgH1jCz9IaXAACVQWEBag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594485297,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in Englis"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /organizations/{organizationId}/packages/{packageId} GET endpoint for \"RETRIEVE_ORGPACKAGEGRANT\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "RETRIEVE_ORGPACKAGEGRANT"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "ORGANIZATION"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICAgaWYoc3ViamVjdFsicGVyc29uLm9yZ2FuaXphdGlvbi5pZCJdID09IHJlc291cmNlWyJvcmdhbml6YXRpb24uaWQiXSkNCgkgICAgICByZXR1cm4gIlBFUk1JVCI7DQoJICAgcmV0dXJuICJERU5ZIjsNCn0NCiAgIA=="
+  },
+  {
+    "id": "6d3e4f53-bfd2-40f5-b068-297cfb7bcfbf",
+    "version": "g2wAAAACaAJtAAAADEILFwm1kKMIAACVemEBaAJtAAAADGgH1jDn9U0yAACUwWEBag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594487731,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for  /grants/tasks/suspend org POST endpoint for \"SUSPEND_ORGPACKAGEGRANT\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "SUSPEND_ORGPACKAGEGRANT"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "ORGANIZATION"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICByZXR1cm4gIkRFTlkiOw0KfQ=="
+  },
+  {
+    "id": "6098d2bc-6cad-4c2f-9bd9-f1e7e03b1e32",
+    "version": "g2wAAAABaAJtAAAADEILFwm1kKMIAACVgGECag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594568305,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to create command audit"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow  requestor to create command audit"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "CREATE_COMMANDS"
+    ],
+    "subjectTypes": [
+      "PERSON",
+      "APPLICATION"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplIChzdWJqZWN0LCByZXNvdXJjZSwgZW52QXR0cmlidXRlcykgeyAKdmFyIGVudGl0bGVtZW50Q291bnQgPSBzdWJqZWN0WyJncm91cEVudGl0bGVtZW50LmNvdW50Il07CmZvciAobnVtID0gMTsgbnVtPD1lbnRpdGxlbWVudENvdW50OyBudW0rKyl7CnZhciBlbnRpdGxlbWVudCA9IHN1YmplY3RbImdyb3VwRW50aXRsZW1lbnRbIiArIG51bSArICJdLm5hbWUiXTsKaWYoZW50aXRsZW1lbnQgPT0gImlvdC1hZG1pbi1hY2Nlc3MiICl7CnJldHVybiAiUEVSTUlUIjsKfQppZihlbnRpdGxlbWVudCA9PSAiaW90LXNvbHV0aW9uLWFkbWluLWFjY2VzcyIgKXsKcmV0dXJuICJQRVJNSVQiOwp9Cn0KcmV0dXJuICJERU5ZIjsKfQ=="
+  },
+  {
+    "id": "5cded4a0-81cd-4656-95f1-389f6af27569",
+    "version": "g2wAAAABaAJtAAAADEILFwm1kKMIAACVg2ECag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594576825,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to update device"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to update device"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "UPDATE_DEVICE"
+    ],
+    "subjectTypes": [
+      "PERSON",
+      "APPLICATION"
+    ],
+    "resourceTypes": [
+      "DEVICE"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplIChzdWJqZWN0LCByZXNvdXJjZSwgZW52QXR0cmlidXRlcykgeyAKdmFyIGVudGl0bGVtZW50Q291bnQgPSBzdWJqZWN0WyJncm91cEVudGl0bGVtZW50LmNvdW50Il07CmZvciAobnVtID0gMTsgbnVtPD1lbnRpdGxlbWVudENvdW50OyBudW0rKyl7CnZhciBlbnRpdGxlbWVudCA9IHN1YmplY3RbImdyb3VwRW50aXRsZW1lbnRbIiArIG51bSArICJdLm5hbWUiXTsKaWYoZW50aXRsZW1lbnQgPT0gImlvdC1hZG1pbi1hY2Nlc3MiICl7CnJldHVybiAiUEVSTUlUIjsKfQppZihlbnRpdGxlbWVudCA9PSAiaW90LXNvbHV0aW9uLWFkbWluLWFjY2VzcyIgKXsKcmV0dXJuICJQRVJNSVQiOwp9CmlmIChlbnRpdGxlbWVudCA9PSAiaW90LWRldmljZS1vd25zOiIgKyByZXNvdXJjZVsiZGV2aWNlLmlkIl0pIHsKcmV0dXJuICJQRVJNSVQiOwp9CmlmIChlbnRpdGxlbWVudCA9PSAiaW90LWRldmljZS1hZG1pbmlzdGVyczoiICsgcmVzb3VyY2VbImRldmljZS5pZCJdKSB7CnJldHVybiAiUEVSTUlUIjsKfQppZiAoZW50aXRsZW1lbnQgPT0gImlvdC1kZXZpY2UtdXNlczoiICsgcmVzb3VyY2VbImRldmljZS5pZCJdKSB7CnJldHVybiAiUEVSTUlUIjsKfQp9CnJldHVybiAiREVOWSI7Cn0="
+  },
+  {
+    "id": "6ae6cc8d-1225-4d51-969c-6b34881419cf",
+    "version": "g2wAAAABaAJtAAAADEILFwm1/rQvAACVGmECag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594579146,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to count event template"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow re questor to count event template"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "COUNT_EVENT_TEMPLATE"
+    ],
+    "subjectTypes": [
+      "PERSON",
+      "APPLICATION"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplIChzdWJqZWN0LCByZXNvdXJjZSwgZW52QXR0cmlidXRlcykgeyAKdmFyIGVudGl0bGVtZW50Q291bnQgPSBzdWJqZWN0WyJncm91cEVudGl0bGVtZW50LmNvdW50Il07CmZvciAobnVtID0gMTsgbnVtPD1lbnRpdGxlbWVudENvdW50OyBudW0rKyl7CnZhciBlbnRpdGxlbWVudCA9IHN1YmplY3RbImdyb3VwRW50aXRsZW1lbnRbIiArIG51bSArICJdLm5hbWUiXTsKaWYoZW50aXRsZW1lbnQgPT0gImlvdC1hZG1pbi1hY2Nlc3MiICl7CnJldHVybiAiUEVSTUlUIjsKfQppZihlbnRpdGxlbWVudCA9PSAiaW90LXJlYWQtb25seS1hY2Nlc3MiICl7CnJldHVybiAiUEVSTUlUIjsKfQppZihlbnRpdGxlbWVudCA9PSAiaW90LXNvbHV0aW9uLWFkbWluLWFjY2VzcyIgKXsKcmV0dXJuICJQRVJNSVQiOwp9Cn0KcmV0dXJuICJERU5ZIjsKfQ=="
+  },
+  {
+    "id": "3b2ca853-7358-4673-9fa3-3b8ce682e63d",
+    "version": "g2wAAAABaAJtAAAADEILFwm1kKMIAACVhWECag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594585098,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to search analytics definition"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to search analytics definition"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "SEARCH_ANALYTICS_DEFINITION"
+    ],
+    "subjectTypes": [
+      "PERSON",
+      "APPLICATION"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplIChzdWJqZWN0LCByZXNvdXJjZSwgZW52QXR0cmlidXRlcykgeyAKdmFyIGVudGl0bGVtZW50Q291bnQgPSBzdWJqZWN0WyJncm91cEVudGl0bGVtZW50LmNvdW50Il07CmZvciAobnVtID0gMTsgbnVtPD1lbnRpdGxlbWVudENvdW50OyBudW0rKyl7CnZhciBlbnRpdGxlbWVudCA9IHN1YmplY3RbImdyb3VwRW50aXRsZW1lbnRbIiArIG51bSArICJdLm5hbWUiXTsKaWYoZW50aXRsZW1lbnQgPT0gImlvdC1hZG1pbi1hY2Nlc3MiICl7CnJldHVybiAiUEVSTUlUIjsKfQppZihlbnRpdGxlbWVudCA9PSAiaW90LXJlYWQtb25seS1hY2Nlc3MiICl7CnJldHVybiAiUEVSTUlUIjsKfQppZihlbnRpdGxlbWVudCA9PSAiaW90LXNvbHV0aW9uLWFkbWluLWFjY2VzcyIgKXsKcmV0dXJuICJQRVJNSVQiOwp9Cn0KcmV0dXJuICJERU5ZIjsKfQ=="
+  },
+  {
+    "id": "b90d950e-fc44-49f5-94b6-f65cf217c65c",
+    "version": "g2wAAAACaAJtAAAADBPU1VmGBfsPAADC+WEBaAJtAAAADEILFwm1/rQvAACVHWEBag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594590589,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to delete orchestration config"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to delete orchestration config"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "DELETE_ORCHESTRATION_CONFIG"
+    ],
+    "subjectTypes": [
+      "PERSON",
+      "APPLICATION"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplIChzdWJqZWN0LCByZXNvdXJjZSwgZW52QXR0cmlidXRlcykgeyAKdmFyIGVudGl0bGVtZW50Q291bnQgPSBzdWJqZWN0WyJncm91cEVudGl0bGVtZW50LmNvdW50Il07CmZvciAobnVtID0gMTsgbnVtPD1lbnRpdGxlbWVudENvdW50OyBudW0rKyl7CnZhciBlbnRpdGxlbWVudCA9IHN1YmplY3RbImdyb3VwRW50aXRsZW1lbnRbIiArIG51bSArICJdLm5hbWUiXTsKaWYoZW50aXRsZW1lbnQgPT0gImlvdC1hZG1pbi1hY2Nlc3MiICl7CnJldHVybiAiUEVSTUlUIjsKfQppZihlbnRpdGxlbWVudCA9PSAiaW90LXNvbHV0aW9uLWFkbWluLWFjY2VzcyIgKXsKcmV0dXJuICJQRVJNSVQiOwp9Cn0KcmV0dXJuICJERU5ZIjsKfQ=="
+  },
+  {
+    "id": "a98394a5-7d28-4e1d-a449-0c09ce334360",
+    "version": "g2wAAAACaAJtAAAADBPU1VmGBfsPAADC+mEBaAJtAAAADEILFwm1/rQvAACVH2EBag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594593150,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to create route"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to create route"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "CREATE_ROUTE"
+    ],
+    "subjectTypes": [
+      "PERSON",
+      "APPLICATION"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplIChzdWJqZWN0LCByZXNvdXJjZSwgZW52QXR0cmlidXRlcykgeyAKdmFyIGVudGl0bGVtZW50Q291bnQgPSBzdWJqZWN0WyJncm91cEVudGl0bGVtZW50LmNvdW50Il07CmZvciAobnVtID0gMTsgbnVtPD1lbnRpdGxlbWVudENvdW50OyBudW0rKyl7CnZhciBlbnRpdGxlbWVudCA9IHN1YmplY3RbImdyb3VwRW50aXRsZW1lbnRbIiArIG51bSArICJdLm5hbWUiXTsKaWYoZW50aXRsZW1lbnQgPT0gImlvdC1hZG1pbi1hY2Nlc3MiICl7CnJldHVybiAiUEVSTUlUIjsKfQppZihlbnRpdGxlbWVudCA9PSAiaW90LXNvbHV0aW9uLWFkbWluLWFjY2VzcyIgKXsKcmV0dXJuICJQRVJNSVQiOwp9Cn0KcmV0dXJuICJERU5ZIjsKfQ=="
+  },
+  {
+    "id": "d6b1be0c-aef9-4f7f-9f4b-c5b24501e453",
+    "version": "g2wAAAACaAJtAAAADBPU1VmGBfsPAADC+2EBaAJtAAAADEILFwm1/rQvAACVI2EBag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594606818,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to remove action definition rule definition"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to remove action definition rule definition"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "REMOVE_ACTION_DEFINITION_RULE_DEFINITION"
+    ],
+    "subjectTypes": [
+      "PERSON",
+      "APPLICATION"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplIChzdWJqZWN0LCByZXNvdXJjZSwgZW52QXR0cmlidXRlcykgeyAKdmFyIGVudGl0bGVtZW50Q291bnQgPSBzdWJqZWN0WyJncm91cEVudGl0bGVtZW50LmNvdW50Il07CmZvciAobnVtID0gMTsgbnVtPD1lbnRpdGxlbWVudENvdW50OyBudW0rKyl7CnZhciBlbnRpdGxlbWVudCA9IHN1YmplY3RbImdyb3VwRW50aXRsZW1lbnRbIiArIG51bSArICJdLm5hbWUiXTsKaWYoZW50aXRsZW1lbnQgPT0gImlvdC1hZG1pbi1hY2Nlc3MiICl7CnJldHVybiAiUEVSTUlUIjsKfQppZihlbnRpdGxlbWVudCA9PSAiaW90LXNvbHV0aW9uLWFkbWluLWFjY2VzcyIgKXsKcmV0dXJuICJQRVJNSVQiOwp9Cn0KcmV0dXJuICJERU5ZIjsKfQ=="
+  },
+  {
+    "id": "e59d900b-8a85-4da4-90c6-ff5350326c9a",
+    "version": "g2wAAAACaAJtAAAADBPU1VmGBfsPAADC/GEBaAJtAAAADGgH1jCz9IaXAACVVGEBag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594610942,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to activate trigger defination template"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy to allow requestor to activate trigger defination template"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "ACTIVATE_TRIGGER_DEFINITION_TEMPLATE"
+    ],
+    "subjectTypes": [
+      "PERSON",
+      "APPLICATION"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplIChzdWJqZWN0LCByZXNvdXJjZSwgZW52QXR0cmlidXRlcykgeyAKdmFyIGVudGl0bGVtZW50Q291bnQgPSBzdWJqZWN0WyJncm91cEVudGl0bGVtZW50LmNvdW50Il07CmZvciAobnVtID0gMTsgbnVtPD1lbnRpdGxlbWVudENvdW50OyBudW0rKyl7CnZhciBlbnRpdGxlbWVudCA9IHN1YmplY3RbImdyb3VwRW50aXRsZW1lbnRbIiArIG51bSArICJdLm5hbWUiXTsKaWYoZW50aXRsZW1lbnQgPT0gImlvdC1hZG1pbi1hY2Nlc3MiICl7CnJldHVybiAiUEVSTUlUIjsKfQppZihlbnRpdGxlbWVudCA9PSAiaW90LXNvbHV0aW9uLWFkbWluLWFjY2VzcyIgKXsKcmV0dXJuICJQRVJNSVQiOwp9Cn0KcmV0dXJuICJERU5ZIjsKfQ=="
+  },
+  {
+    "id": "80b78121-9336-4946-bde7-0e9fd767c903",
+    "version": "g2wAAAACaAJtAAAADBPU1VnY4wivAADBD2EBaAJtAAAADGgH1jC2BXQJAACR3mEBag==",
+    "creator": "IOT_ADMIN",
+    "creatorAppId": "Test Tool",
+    "creation": 1463594471070,
+    "realm": "S-IOT-STG-1",
+    "name": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy name in English"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "Authorization policy for /authn/nonce POST endpoint for \"CREATE_NONCE\" action"
+      }
+    ],
+    "active": true,
+    "actions": [
+      "CREATE_NONCE"
+    ],
+    "subjectTypes": [
+      "PERSON"
+    ],
+    "resourceTypes": [
+      "PERSON"
+    ],
+    "script": "ZnVuY3Rpb24gYXV0aG9yaXplKHN1YmplY3QsIHJlc291cmNlLCBlbnZBdHRyaWJ1dGVzKSB7DQoJICAgaWYoc3ViamVjdFsicGVyc29uLmlkIl0gPT0gcmVzb3VyY2VbInBlcnNvbi5pZCJdKQ0KCSAgICAgIHJldHVybiAiUEVSTUlUIjsNCgkgICByZXR1cm4gIkRFTlkiOw0KfQ=="
+  }
+]
